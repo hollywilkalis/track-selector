@@ -11,9 +11,16 @@ h1 {
   font-size: 40px;
 }
 
-img {
+h2 {
+  font-size: 30px;
+  color: #33cccc;
+  margin-top: 40px;
+}
+
+img.logo {
   float: right;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 form {
@@ -24,20 +31,21 @@ form {
   font-size: 18px;
   }
 
-  #c, #java, #php, #ruby {
-    display: none;
-  }
+#c, #java, #php, #ruby {
+  display: none;
+}
 
-  .card {
-    margin-top: 20px;
-  }
+.card {
+  margin-top: 20px;
+  width: 50%;
+}
 
-  .card-title {
-    font-weight: bold;
-    color: #0f3d3d;
-  }
+.card-title {
+  font-weight: bold;
+  color: #0f3d3d;
+}
 
-  .card-text-title {
-    font-weight: bold;
-    color: #0f3d3d;
-  }
+.card-text-title {
+  font-weight: bold;
+  color: #0f3d3d;
+}
