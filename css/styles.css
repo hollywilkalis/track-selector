@@ -1,0 +1,21 @@
+label {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #0f3d3d;
+}
+
+h1 {
+  font-weight: bolder;
+  color: #33cccc;
+  font-size: 40px;
+}
+
+img {
+  float: right;
+  margin-bottom: 20px;
+}
+
+.body {
+  font-size: 18px;
+  }

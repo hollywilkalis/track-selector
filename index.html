@@ -11,6 +11,60 @@
   <body>
     <div class="container">
 
+      <img src="img/epicodus-logo.png" alt="Epicodus logo" width="200px">
+      <h1>Picking an Epicodus track</h1>
+      <p class="body">We heard you're considering signing up to study with Epicodus? That's great-we're excited to have you!</p>
+
+      <p class="body">The first thing you need to need do is pick a language. While all our tracks start with an Intro to Programming section, after that each track will spend the rest of their time focusing on a particular language. If you're not sure which to choose, you're not alone! Many prospective students have trouble figuring out which one is right for them.</p>
+
+      <p class="body">Answer the questions below and we'll suggest the best language for you!</p>
+
+      <form id="survey">
+        <div class="form-group">
+          <label for="name">What's your name?</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="experience">How much previous programming or coding experience do you have?</label>
+          <select class="form-control" id="experience">
+            <option value="1">A lot</option>
+            <option value="2">Some</option>
+            <option value="3">None</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="end">Are you more interested in front-end or back-end development?</label>
+          <select class="form-control" id="end">
+            <option value="1">Front-end</option>
+            <option value="2">Back-end</option>
+            <option value="3">What's the difference?</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="goal">Which sentence best describes you?</label>
+          <select class="form-control" id="goal">
+            <option value="1">I’m interested in working in software development, especially business software for large companies</option>
+            <option value="2">I’m interested in app development or building user interfaces and I’d like to learn a language that is used broadly</option>
+            <option value="3">I’m most interested in working on server-side or back-end technology, and I’d like some career flexibility</option>
+            <option value="4">I see myself building interactive web applications and developing dynamic content in a fast-paced development environment</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="platform">Mac or PC? (We're just curious.)</label>
+          <select class="form-control" id="goal">
+            <option value="1">Mac all the way!</option>
+            <option value="2">PC forever!</option>
+            <option value="3">Both - I don't discriminate!</option>
+          </select>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+
+
 
 
 
