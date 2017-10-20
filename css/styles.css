@@ -27,3 +27,17 @@ form {
   #c, #java, #php, #ruby {
     display: none;
   }
+
+  .card {
+    margin-top: 20px;
+  }
+
+  .card-title {
+    font-weight: bold;
+    color: #0f3d3d;
+  }
+
+  .card-text-title {
+    font-weight: bold;
+    color: #0f3d3d;
+  }
