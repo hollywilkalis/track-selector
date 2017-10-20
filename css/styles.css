@@ -16,6 +16,14 @@ img {
   margin-bottom: 20px;
 }
 
+form {
+  margin-top: 10px;
+}
+
 .body {
   font-size: 18px;
+  }
+
+  #c, #java, #php, #ruby {
+    display: none;
   }
