@@ -4,16 +4,15 @@ var greeting = function (_message, _nameInput) {
 
 $(document).ready(function() {
   $("form#survey").submit(function(event) {
-    debugger
     event.preventDefault()
-    var choice = parseInt($("#goal").val());
-    var message = "Thanks for completing this questionnaire, ";
-    var nameInput = $("input#name").val();
-    var greeting = message.concat(nameInput);
+    var choice = parseInt($("#goal").val()); //gets choice from goals
+    var message = "Thanks for completing this questionnaire ";
+    var nameInput = $("input#name").val(); //assigns name from form input
+    var greeting = message.concat(nameInput); //concats name with message
 
-    $(".greeting").text(greeting);
+    $(".greeting").text(greeting); //assigns greeting to a class
 
-    if (choice === 1) {
+    if (choice === 1) { 
       $("#c").show();
 
     } else if (choice === 2) {
