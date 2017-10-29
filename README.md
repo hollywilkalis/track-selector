@@ -1,32 +1,32 @@
-# _Epicodus Track Selector_
+# Epicodus Track Selector
 
-#### _Epicodus JavaScript and jQuery project, October 20, 2017_
+####
+Epicodus JavaScript and jQuery project, October 20, 2017
 
-#### By _Holly Wilkalis_
+#### By Holly Wilkalis
 
 ## Description
 
-_This website is my code review project for Epicodus, Intro to Programming, week 2._
+This website is my code review project for Epicodus, Intro to Programming, week 2. It provides suggestions on choosing a language to study based on answers to a few questions.
 
 ## Setup/Installation Requirements
-_To view this project as a site, visit https://hollywilkalis.github.io/track-selector/_
-_To replicate this site:_
-* _Go to https://github.com/hollywilkalis/track-selector._
-* _Click the Clone or Download button._
-* _At the prompt, click Download ZIP to download a ZIP file containing all the HTML, style, script and image files._
-* _Browse to your download location to open the ZIP file and view the contents._
-* _Depending on your system settings you may need to unzip the file or copy it to a new location before opening and editing the files._
+To view this project as a site, visit https://hollywilkalis.github.io/track-selector/
+To view and edit the files for this site:
+* Open Terminal (or your corresponding command-line tool)
+* Navigate to the directory where you want to save the files using the cd command.
+* Type this command: $ git clone https://github.com/hollywilkalis/track-selector
+* You can now open and view or edit the files using Atom or another code editor.  
 
 ## Support and contact details
 
-_Problems? Questions? Want to talk about coding or cats? I can be reached at holly.wilkalis@gmail.com._
+Problems? Questions? Want to talk about coding or cats? I can be reached at holly.wilkalis@gmail.com.
 
 ## Technologies Used
 
-_In addition to Bootstrap and JavaScript, this site uses custom scripts and CSS styles._
+In addition to Bootstrap and JavaScript, this site uses custom scripts and CSS styles.
 
 ### License
 
-* _MIT_
+* MIT
 
-Copyright (c) 2016 **_Holly Wilkalis_**
+Copyright (c) 2017 **Holly Wilkalis**
